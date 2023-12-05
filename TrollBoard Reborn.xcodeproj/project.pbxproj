@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE11389A2B1CFD0900103E67 /* UIAlert++.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1138992B1CFD0900103E67 /* UIAlert++.swift */; };
+		FE11389C2B1D065600103E67 /* ThemeRevampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE11389B2B1D065600103E67 /* ThemeRevampView.swift */; };
+		FE1138A02B1D0A1B00103E67 /* DocPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE11389F2B1D0A1B00103E67 /* DocPicker.swift */; };
+		FE7D712A2B1A4685001F6384 /* respring.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7D71292B1A4685001F6384 /* respring.m */; };
+		FE831AB32B177CCF003AEE75 /* Webcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE831AB22B177CCF003AEE75 /* Webcon.swift */; };
+		FEE4DEA82B190ACF00B5EA3C /* SpringBoard.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE4DEA72B190ACF00B5EA3C /* SpringBoard.tbd */; };
+		FEF3FAAC2B1672AA0039FA14 /* TrollBoard_RebornApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3FAAB2B1672AA0039FA14 /* TrollBoard_RebornApp.swift */; };
+		FEF3FAB02B1672AC0039FA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF3FAAF2B1672AC0039FA14 /* Assets.xcassets */; };
+		FEF3FAB32B1672AC0039FA14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF3FAB22B1672AC0039FA14 /* Preview Assets.xcassets */; };
+		FEF3FABD2B1672AC0039FA14 /* TrollBoard_RebornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3FABC2B1672AC0039FA14 /* TrollBoard_RebornTests.swift */; };
+		FEF3FAC72B1672AC0039FA14 /* TrollBoard_RebornUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3FAC62B1672AC0039FA14 /* TrollBoard_RebornUITests.swift */; };
+		FEF3FAC92B1672AC0039FA14 /* TrollBoard_RebornUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3FAC82B1672AC0039FA14 /* TrollBoard_RebornUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEF3FAB92B1672AC0039FA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEF3FAA02B1672AA0039FA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF3FAA72B1672AA0039FA14;
+			remoteInfo = "TrollBoard Reborn";
+		};
+		FEF3FAC32B1672AC0039FA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEF3FAA02B1672AA0039FA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF3FAA72B1672AA0039FA14;
+			remoteInfo = "TrollBoard Reborn";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE1138992B1CFD0900103E67 /* UIAlert++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlert++.swift"; sourceTree = "<group>"; };
+		FE11389B2B1D065600103E67 /* ThemeRevampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeRevampView.swift; sourceTree = "<group>"; };
+		FE11389F2B1D0A1B00103E67 /* DocPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocPicker.swift; sourceTree = "<group>"; };
+		FE7D71292B1A4685001F6384 /* respring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = respring.m; sourceTree = "<group>"; };
+		FE7D712B2B1A46AE001F6384 /* respring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = respring.h; sourceTree = "<group>"; };
+		FE831AB22B177CCF003AEE75 /* Webcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webcon.swift; sourceTree = "<group>"; };
+		FEE4DE9B2B1908C300B5EA3C /* TrollBoardReborn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrollBoardReborn-Bridging-Header.h"; sourceTree = "<group>"; };
+		FEE4DEA72B190ACF00B5EA3C /* SpringBoard.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = SpringBoard.tbd; path = "TrollBoard Reborn/SpringBoard.tbd"; sourceTree = "<group>"; };
+		FEE4DEA92B190D3600B5EA3C /* SBFApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBFApplication.h; sourceTree = "<group>"; };
+		FEF3FAA82B1672AA0039FA14 /* TrollBoard Reborn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrollBoard Reborn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF3FAAB2B1672AA0039FA14 /* TrollBoard_RebornApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollBoard_RebornApp.swift; sourceTree = "<group>"; };
+		FEF3FAAF2B1672AC0039FA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEF3FAB22B1672AC0039FA14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEF3FAB82B1672AC0039FA14 /* TrollBoard RebornTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TrollBoard RebornTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF3FABC2B1672AC0039FA14 /* TrollBoard_RebornTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollBoard_RebornTests.swift; sourceTree = "<group>"; };
+		FEF3FAC22B1672AC0039FA14 /* TrollBoard RebornUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TrollBoard RebornUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF3FAC62B1672AC0039FA14 /* TrollBoard_RebornUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollBoard_RebornUITests.swift; sourceTree = "<group>"; };
+		FEF3FAC82B1672AC0039FA14 /* TrollBoard_RebornUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollBoard_RebornUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF3FAA52B1672AA0039FA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE4DEA82B190ACF00B5EA3C /* SpringBoard.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF3FAB52B1672AC0039FA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF3FABF2B1672AC0039FA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE1138962B1CFCE800103E67 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE1138992B1CFD0900103E67 /* UIAlert++.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FE831AB12B177CB9003AEE75 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE831AB22B177CCF003AEE75 /* Webcon.swift */,
+				FE11389F2B1D0A1B00103E67 /* DocPicker.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FEE4DE9A2B1908AF00B5EA3C /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				FEE4DE9B2B1908C300B5EA3C /* TrollBoardReborn-Bridging-Header.h */,
+				FEE4DEA92B190D3600B5EA3C /* SBFApplication.h */,
+				FE7D71292B1A4685001F6384 /* respring.m */,
+				FE7D712B2B1A46AE001F6384 /* respring.h */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		FEE4DEA62B190ACF00B5EA3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE4DEA72B190ACF00B5EA3C /* SpringBoard.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEF3FA9F2B1672AA0039FA14 = {
+			isa = PBXGroup;
+			children = (
+				FEF3FAAA2B1672AA0039FA14 /* TrollBoard Reborn */,
+				FEF3FABB2B1672AC0039FA14 /* TrollBoard RebornTests */,
+				FEF3FAC52B1672AC0039FA14 /* TrollBoard RebornUITests */,
+				FEF3FAA92B1672AA0039FA14 /* Products */,
+				FEE4DEA62B190ACF00B5EA3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF3FAA92B1672AA0039FA14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3FAA82B1672AA0039FA14 /* TrollBoard Reborn.app */,
+				FEF3FAB82B1672AC0039FA14 /* TrollBoard RebornTests.xctest */,
+				FEF3FAC22B1672AC0039FA14 /* TrollBoard RebornUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF3FAAA2B1672AA0039FA14 /* TrollBoard Reborn */ = {
+			isa = PBXGroup;
+			children = (
+				FE1138962B1CFCE800103E67 /* Extensions */,
+				FEE4DE9A2B1908AF00B5EA3C /* ObjC */,
+				FE831AB12B177CB9003AEE75 /* Classes */,
+				FEF3FAD52B1672B70039FA14 /* Views */,
+				FEF3FAAB2B1672AA0039FA14 /* TrollBoard_RebornApp.swift */,
+				FEF3FAAF2B1672AC0039FA14 /* Assets.xcassets */,
+				FEF3FAB12B1672AC0039FA14 /* Preview Content */,
+			);
+			path = "TrollBoard Reborn";
+			sourceTree = "<group>";
+		};
+		FEF3FAB12B1672AC0039FA14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3FAB22B1672AC0039FA14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEF3FABB2B1672AC0039FA14 /* TrollBoard RebornTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3FABC2B1672AC0039FA14 /* TrollBoard_RebornTests.swift */,
+			);
+			path = "TrollBoard RebornTests";
+			sourceTree = "<group>";
+		};
+		FEF3FAC52B1672AC0039FA14 /* TrollBoard RebornUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3FAC62B1672AC0039FA14 /* TrollBoard_RebornUITests.swift */,
+				FEF3FAC82B1672AC0039FA14 /* TrollBoard_RebornUITestsLaunchTests.swift */,
+			);
+			path = "TrollBoard RebornUITests";
+			sourceTree = "<group>";
+		};
+		FEF3FAD52B1672B70039FA14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE11389B2B1D065600103E67 /* ThemeRevampView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEF3FAA72B1672AA0039FA14 /* TrollBoard Reborn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF3FACC2B1672AC0039FA14 /* Build configuration list for PBXNativeTarget "TrollBoard Reborn" */;
+			buildPhases = (
+				FEF3FAA42B1672AA0039FA14 /* Sources */,
+				FEF3FAA52B1672AA0039FA14 /* Frameworks */,
+				FEF3FAA62B1672AA0039FA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrollBoard Reborn";
+			packageProductDependencies = (
+			);
+			productName = "TrollBoard Reborn";
+			productReference = FEF3FAA82B1672AA0039FA14 /* TrollBoard Reborn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEF3FAB72B1672AC0039FA14 /* TrollBoard RebornTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF3FACF2B1672AC0039FA14 /* Build configuration list for PBXNativeTarget "TrollBoard RebornTests" */;
+			buildPhases = (
+				FEF3FAB42B1672AC0039FA14 /* Sources */,
+				FEF3FAB52B1672AC0039FA14 /* Frameworks */,
+				FEF3FAB62B1672AC0039FA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF3FABA2B1672AC0039FA14 /* PBXTargetDependency */,
+			);
+			name = "TrollBoard RebornTests";
+			productName = "TrollBoard RebornTests";
+			productReference = FEF3FAB82B1672AC0039FA14 /* TrollBoard RebornTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEF3FAC12B1672AC0039FA14 /* TrollBoard RebornUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF3FAD22B1672AC0039FA14 /* Build configuration list for PBXNativeTarget "TrollBoard RebornUITests" */;
+			buildPhases = (
+				FEF3FABE2B1672AC0039FA14 /* Sources */,
+				FEF3FABF2B1672AC0039FA14 /* Frameworks */,
+				FEF3FAC02B1672AC0039FA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF3FAC42B1672AC0039FA14 /* PBXTargetDependency */,
+			);
+			name = "TrollBoard RebornUITests";
+			productName = "TrollBoard RebornUITests";
+			productReference = FEF3FAC22B1672AC0039FA14 /* TrollBoard RebornUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF3FAA02B1672AA0039FA14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					FEF3FAA72B1672AA0039FA14 = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
+					};
+					FEF3FAB72B1672AC0039FA14 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = FEF3FAA72B1672AA0039FA14;
+					};
+					FEF3FAC12B1672AC0039FA14 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = FEF3FAA72B1672AA0039FA14;
+					};
+				};
+			};
+			buildConfigurationList = FEF3FAA32B1672AA0039FA14 /* Build configuration list for PBXProject "TrollBoard Reborn" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEF3FA9F2B1672AA0039FA14;
+			packageReferences = (
+			);
+			productRefGroup = FEF3FAA92B1672AA0039FA14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF3FAA72B1672AA0039FA14 /* TrollBoard Reborn */,
+				FEF3FAB72B1672AC0039FA14 /* TrollBoard RebornTests */,
+				FEF3FAC12B1672AC0039FA14 /* TrollBoard RebornUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEF3FAA62B1672AA0039FA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF3FAB32B1672AC0039FA14 /* Preview Assets.xcassets in Resources */,
+				FEF3FAB02B1672AC0039FA14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF3FAB62B1672AC0039FA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF3FAC02B1672AC0039FA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF3FAA42B1672AA0039FA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE831AB32B177CCF003AEE75 /* Webcon.swift in Sources */,
+				FE7D712A2B1A4685001F6384 /* respring.m in Sources */,
+				FE11389C2B1D065600103E67 /* ThemeRevampView.swift in Sources */,
+				FE11389A2B1CFD0900103E67 /* UIAlert++.swift in Sources */,
+				FE1138A02B1D0A1B00103E67 /* DocPicker.swift in Sources */,
+				FEF3FAAC2B1672AA0039FA14 /* TrollBoard_RebornApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF3FAB42B1672AC0039FA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF3FABD2B1672AC0039FA14 /* TrollBoard_RebornTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF3FABE2B1672AC0039FA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF3FAC72B1672AC0039FA14 /* TrollBoard_RebornUITests.swift in Sources */,
+				FEF3FAC92B1672AC0039FA14 /* TrollBoard_RebornUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEF3FABA2B1672AC0039FA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF3FAA72B1672AA0039FA14 /* TrollBoard Reborn */;
+			targetProxy = FEF3FAB92B1672AC0039FA14 /* PBXContainerItemProxy */;
+		};
+		FEF3FAC42B1672AC0039FA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF3FAA72B1672AA0039FA14 /* TrollBoard Reborn */;
+			targetProxy = FEF3FAC32B1672AC0039FA14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEF3FACA2B1672AC0039FA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEF3FACB2B1672AC0039FA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEF3FACD2B1672AC0039FA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = Final;
+				DEVELOPMENT_ASSET_PATHS = "\"TrollBoard Reborn/Preview Content\"";
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrollBoard;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TrollBoard\\ Reborn",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haxi0.TrollBoard-Reborn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TrollBoard Reborn/ObjC/TrollBoardReborn-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEF3FACE2B1672AC0039FA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = Final;
+				DEVELOPMENT_ASSET_PATHS = "\"TrollBoard Reborn/Preview Content\"";
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrollBoard;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TrollBoard\\ Reborn",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haxi0.TrollBoard-Reborn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TrollBoard Reborn/ObjC/TrollBoardReborn-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEF3FAD02B1672AC0039FA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haxi0.TrollBoard-RebornTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrollBoard Reborn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrollBoard Reborn";
+			};
+			name = Debug;
+		};
+		FEF3FAD12B1672AC0039FA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haxi0.TrollBoard-RebornTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrollBoard Reborn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrollBoard Reborn";
+			};
+			name = Release;
+		};
+		FEF3FAD32B1672AC0039FA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haxi0.TrollBoard-RebornUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TrollBoard Reborn";
+			};
+			name = Debug;
+		};
+		FEF3FAD42B1672AC0039FA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haxi0.TrollBoard-RebornUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TrollBoard Reborn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF3FAA32B1672AA0039FA14 /* Build configuration list for PBXProject "TrollBoard Reborn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF3FACA2B1672AC0039FA14 /* Debug */,
+				FEF3FACB2B1672AC0039FA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF3FACC2B1672AC0039FA14 /* Build configuration list for PBXNativeTarget "TrollBoard Reborn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF3FACD2B1672AC0039FA14 /* Debug */,
+				FEF3FACE2B1672AC0039FA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF3FACF2B1672AC0039FA14 /* Build configuration list for PBXNativeTarget "TrollBoard RebornTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF3FAD02B1672AC0039FA14 /* Debug */,
+				FEF3FAD12B1672AC0039FA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF3FAD22B1672AC0039FA14 /* Build configuration list for PBXNativeTarget "TrollBoard RebornUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF3FAD32B1672AC0039FA14 /* Debug */,
+				FEF3FAD42B1672AC0039FA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEF3FAA02B1672AA0039FA14 /* Project object */;
+}
